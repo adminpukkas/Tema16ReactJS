@@ -1,0 +1,13 @@
+.App {
+  height: 300vh;
+  padding: 12px 36px;
+  box-sizing: border-box;
+
+  background-color:  #282c34;
+  color: white;
+}
+
+.App:has(.Dia) {
+  background-color:  #FFF;
+  color: #282c34;
+}

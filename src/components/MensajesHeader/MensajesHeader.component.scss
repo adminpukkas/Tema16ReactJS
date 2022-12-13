@@ -1,0 +1,42 @@
+@import "src/colors.scss";
+
+.MensajesHeader {
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+    float: right;
+}
+
+.Boton {
+    margin-left: 4px;
+    margin-right: 4px;
+    
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 2px;
+
+    color: $light;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.Nuevo {
+    @extend .Boton;
+    background-color: #469553;
+}
+
+.Nuevo:hover {
+    background-color: #336e3d;
+}
+
+.Vaciar {
+    @extend .Boton;
+    background-color: $danger;
+}
+
+.Vaciar:hover {
+    background-color: $dangerDark;
+}
